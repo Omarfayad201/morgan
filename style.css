@@ -1,0 +1,511 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item::before {
+  position: absolute;
+  bottom: 0;
+  left: 21.5;
+  content: "";
+  background-color: white;
+  width: 50px;
+  height: 3px;
+  
+}
+
+.bac::before {
+  transition: all 1s;
+  position: absolute;
+  bottom: 0;
+  left: 21.5;
+  content: "";
+  background-color: white;
+  width: 0;
+  height: 3px;
+}
+
+.bac:hover:before {
+  transition: all 1s;
+  width: 35;
+}
+
+/* homeheader */
+header {
+  background-image: url(assignmen6-pics/assignment1.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.leyar {
+  position: absolute;
+  z-index: 9999999999999;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.home-info{
+  position: relative;
+}
+.h-2{
+position: absolute;
+top: 65%;
+}
+
+.home-info h1 {
+  font-size: 4.6rem;
+}
+h2{
+position: relative;
+}
+.h-2 h2::after{
+content: '|';
+animation-name:tyb ;
+animation-duration: 13s;
+animation-iteration-count: infinite;
+}
+/* Web Developer Web Designer Frontend Developer Graphic Designer CEO DevFolio*/
+@keyframes tyb {
+1%{content: 'W|';}
+2%{content: 'We|';}
+3%{content: 'Web|';}
+4%{content: 'Web D|';}
+5%{content: 'Web De|';}
+6%{content: 'Web Dev|';}
+7%{content: 'Web Deve|';}
+8%{content: 'Web Devel|';}
+9%{content: 'Web Develo|';}
+10%{content: 'Web Develop|';}
+11%{content: 'Web Develope|';}
+12%{content: 'Web Developer|';}
+13%{content: 'Web Develope|';}
+14%{content: 'Web Develop|';}
+15%{content: 'Web Develo|';}
+16%{content: 'Web Devel|';}
+17%{content: 'Web Deve|';}
+18%{content: 'Web Dev|';}
+19%{content: 'Web De|';}
+20%{content: 'Web D|';}
+21%{content: 'Web|';}
+22%{content: 'We|';}
+23%{content: 'W|';}
+/*Web Designer  */
+24%{content: 'W|';}
+25%{content: 'We|';}
+26%{content: 'Web|';}
+27%{content: 'Web D|';}
+28%{content: 'Web De|';}
+29%{content: 'Web Des|';}
+30%{content: 'Web Desi|';}
+31%{content: 'Web Desig|';}
+32%{content: 'Web Design|';}
+33%{content: 'Web Designe|';}
+34%{content: 'Web Designer|';}
+35%{content: 'Web Designe|';}
+36%{content: 'Web Design|';}
+37%{content: 'Web Desig|';}
+38%{content: 'Web Desi|';}
+39%{content: 'Web Des|';}
+40%{content: 'Web De|';}
+41%{content: 'Web D|';}
+42%{content: 'Web|';}
+42%{content: 'We|';}
+43%{content: 'W|';}
+/* Frontend Developer */
+44%{content: 'F|';}
+45%{content: 'Fr|';}
+46%{content: 'Fro|';}
+47%{content: 'Fron|';}
+48%{content: 'Front|';}
+49%{content: 'Fronte|';}
+50%{content: 'Fronten|';}
+51%{content: 'Frontend|';}
+51%{content: 'Frontend D|';}
+52%{content: 'Frontend De|';}
+53%{content: 'Frontend Dev|';}
+54%{content: 'Frontend Deve|';}
+55%{content: 'Frontend Devel|';}
+56%{content: 'Frontend Develo|';}
+57%{content: 'Frontend Develop|';}
+58%{content: 'Frontend Develope|';}
+59%{content: 'Frontend Developer|';}
+60%{content: 'Frontend Develope|';}
+61%{content: 'Frontend Develop|';}
+62%{content: 'Frontend Develo|';}
+63%{content: 'Frontend Devel|';}
+64%{content: 'Frontend Deve|';}
+65%{content: 'Frontend Dev|';}
+66%{content: 'Frontend De|';}
+67%{content: 'Frontend D|';}
+68%{content: 'Frontend|';}
+69%{content: 'Fronten|';}
+70%{content: 'Fronte|';}
+71%{content: 'Front|';}
+72%{content: 'Fron|';}
+73%{content: 'Fro|';}
+74%{content: 'Fr|';}
+75%{content: 'F|';}
+/*Graphic Designer  */
+76%{content: 'G|';}
+77%{content: 'Gr|';}
+78%{content: 'Gra|';}
+79%{content: 'Grap|';}
+80%{content: 'Graph|';}
+81%{content: 'Graphi|';}
+82%{content: 'Graphic|';}
+83%{content: 'Graphic D|';}
+84%{content: 'Graphic De|';}
+85%{content: 'Graphic Des|';}
+86%{content: 'Graphic Desi|';}
+87%{content: 'Graphic Desig|';}
+88%{content: 'Graphic Design|';}
+89%{content: 'Graphic Designe|';}
+90%{content: 'Graphic Designer|';}
+91%{content: 'Graphic Designe|';}
+92%{content: 'Graphic Design|';}
+93%{content: 'Graphic Desig|';}
+94%{content: 'Graphic Desi|';}
+95%{content: 'Graphic Des|';}
+96%{content: 'Graphic De|';}
+97%{content: 'Graphic D|';}
+98%{content: 'Graphic|';}
+99%{content: 'Graphi|';}
+100%{content: 'Graph|';}
+0%{content: 'Grap|';}
+0%{content: 'Gra|';}
+0%{content: 'Gr|';}
+0%{content: 'G|';}
+/*CEO DevFolio  */
+0%{content: 'C|';}
+0%{content: 'CE|';}
+0%{content: 'CEO|';}
+0%{content: 'CEO D|';}
+0%{content: 'CEO De|';}
+0%{content: 'CEO Dev|';}
+0%{content: 'CEO DevF|';}
+0%{content: 'CEO DevFo|';}
+0%{content: 'CEO DevFol|';}
+0%{content: 'CEO DevFoli|';}
+0%{content: 'CEO DevFolio|';}
+0%{content: 'CEO DevFoli|';}
+0%{content: 'CEO DevFol|';}
+0%{content: 'CEO DevFo|';}
+0%{content: 'CEO DevF|';}
+0%{content: 'CEO Dev|';}
+0%{content: 'CEO De|';}
+0%{content: 'CEO D|';}
+0%{content: 'CEO|';}
+0%{content: 'CE|';}
+0%{content: 'C|';}
+0%{content: '|';}
+0%{content: '|';}
+}
+
+/* page2 */
+.page2-ul ul li{
+list-style: none;
+padding: 7px 0px 7px 10px;
+}
+.p-progress{
+position: relative;
+left: 95%;
+bottom: -50px;
+}
+.h3-progress p{
+transform: translateY(10px);
+}
+.title-page2{
+position: relative;
+padding-bottom: 50px;
+}
+.title-page2::before{
+position: absolute;
+bottom: 45px;
+content: '';
+background-color: #0078ff;
+width: 100px;
+height: 3px;
+}
+.bac-2{
+box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%),0 2px 5px 0 rgb(0 0 0 / 20%);
+background-color: #fff;
+}
+/* page3 */
+#page-3{background-color: #f5f5f5;
+
+}
+.page3-title p{
+position: relative;
+}
+.page3-title p::before{
+position: absolute;
+bottom: -15px;
+left: 50%;
+content: '';
+background-color: #0078ff;
+width: 35px;
+height: 5px;
+transform: translateX(-20px);
+}
+.page3-title h3 {
+font-size:40px ;
+}
+.icon-card i{font-size: 40px;}
+
+.icon-card h3{
+padding-top: 10px;
+font-size: 20px;
+}
+.icon-card{
+text-align: center;
+padding: 40px;}
+.icon-page3{
+width: 50%;
+padding:1.2rem;
+box-shadow: 0 0 0 10px #0078ff; border-radius: 50rem;
+transform: translateX(60px)
+}
+.icon-card:hover .icon-page3{
+background-color: #0078ff;
+box-shadow: 0 0 0 10px #d8dde0;
+  border-radius: 50rem;
+transition: all 1s;
+}
+
+/* page4 */
+
+
+#page-4{
+width: 100%;
+height: 50vh;
+background-image: url(assignmen6-pics/assignment03.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.layer-page4{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #0077ffb2;
+}
+
+.icon-page4 i{
+  margin-top:30px;
+  width: 20%;
+box-shadow: 0 0 0 10px rgba(243, 242, 248, 0.852);
+  border-radius: 50rem;
+  font-size: 50px;
+  
+}
+ /* page5 */
+#page-5{background-color: #f5f5f5; padding-bottom: 40px;}
+
+.page4-title p {position: relative;}
+
+.page4-title p::before {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  content: '';
+  background-color: #0078ff;
+  width: 35px;
+  height: 5px;
+  transform: translateX(-20px);
+}
+.page4-title h3 {font-size: 40px;}
+.card-5:hover img{
+transform: scale(1.1);
+transition: all 1s;}
+.card-5{box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);}
+/* page6 */
+.bac-page6{
+
+width: 100%; height: 30vh;
+background-image: url(assignmen6-pics/assignment10.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+.leyar-bac6{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #006aff89;
+}
+/* page7 */
+.page7-title p {
+  position: relative;
+}
+
+.page7-title p::before {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  content: '';
+  background-color: #0078ff;
+  width: 35px;
+  height: 5px;
+  transform: translateX(-20px);
+}
+.page7-title h3 {font-size: 40px;}
+
+#page-7{
+background-color: #f5f5f5;
+}
+ .h6-card {
+transform: translateY(-35px);
+background-color: #0078ff;
+}
+.img-7 img{
+width: 40px;
+height: 40px;
+border-radius: 50%;}
+
+.imgpag7-card{border-top: 1px solid gainsboro;}
+
+.icon-page7{position: relative;}
+
+.icon-page7::after{
+position: absolute;
+top: 20px;
+transform: translateX(10px);
+content: 'min';}
+.card-7{box-shadow: 0 1px 1px rgb(0 0 0 / 6%), 0 1px 5px rgb(0 0 0 / 20%);}
+
+/* page8 */
+#page-8{
+  position: relative;
+background-image: url(assignmen6-pics/assignment10.jpg);
+background-position: center center;
+background-size: cover;
+width: 100%;
+height: 100vh;
+background-attachment: fixed;
+}
+.layer-page8{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: #0077ffb0;
+}
+
+.page8-title h3 {position: relative;}
+.page8-title h3::before {
+  position: absolute;
+  bottom: -15px;
+  left:25px ;
+  content: '';
+  background-color: #0078ff;
+  width: 110px;
+  height: 3px;
+  transform: translateX(-20px);
+}
+
+.page8-title h3 {
+  font-size: 40px;
+}
+.info-form p{
+font-size: 20px;
+font-weight: lighter;
+width: 85%;
+}
+
+.boyd-form input{
+margin:10px 15px 10px 15px;
+padding: 7px 150px 5px 10px;
+}
+.butt-form:hover{
+  box-shadow: 0 0 0 5px rgba(230, 227, 247, 0.713);
+    border-radius: 50rem;
+    transition: all 0.5s;
+}
+.info-form ul li{
+list-style: none;
+margin-top: 7px;
+}
+.a-page8{
+border: 5px solid #0078ff;
+border-radius: 50%;
+padding: 15px 17px;
+margin-right: 5px;
+color: black;
+font-size: 20px;
+}
+.a-page8:hover{
+background-color: #0078ff;
+color: white;
+border: 0px;
+box-shadow: 0 0 0 5px rgba(230, 227, 247, 0.713);
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.info{
+transform: translateX(40%);
+
+}
+.info a{
+  transform: translateX(150px);
+}
+
+@media screen and (max-width:700px){
+header {
+    background-image: url(assignmen6-pics/assignment10.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100% !important;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  .a-page8 {
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-right: 5px;
+    color: black;
+    font-size: 20px;
+
+  }
+.card-7 {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 6%), 0 1px 5px rgb(0 0 0 / 20%);
+
+width: 100% !important;
+}
+.d-n{
+display: none !important;
+
+}
+.h-s{
+  font-size: 20px !important;
+}
+.allp-page2 p{
+  font-size: 15px !important;
+}
+.img-pag2{
+  width: 130px !important;
+  height: 170px !important;
+}
+.page2-ul{
+font-size: 10px !important;
+
+}
+}
